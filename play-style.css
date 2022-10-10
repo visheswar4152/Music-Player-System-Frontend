@@ -1,0 +1,24 @@
+*{
+	margin: 0px;
+	background-color: #0C1027;
+
+
+}
+
+.bg{
+	height: 70vh;
+	width: 100%;
+	background-image: url(justin-beiber/background.jpg);
+	background-size: cover;
+	position: relative;
+	
+}
+
+h1{
+	
+	font-size: 100px;
+	color: white;
+	font-family: sans-serif;
+	opacity: 100%;
+
+}

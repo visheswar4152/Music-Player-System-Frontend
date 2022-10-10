@@ -1,0 +1,256 @@
+*{
+	margin: 0px;
+
+	background-color: #0C1027;
+
+
+}
+
+
+.m100px{
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+
+section{
+	
+	display: inline-block;
+}
+
+section:nth-child(2n){
+	display: inline-flex;
+	margin-top: 15px;
+}
+
+section:nth-child(2n+1){
+	display: inline-block;
+	margin-top: 15px;
+}
+
+/********to remove all underline from links*******/
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+
+.header-section div{
+	display: flex;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.header-section img{
+	
+	height: 55px;
+}
+
+
+
+
+#favorites{
+	object-position: 5rem;
+	margin-left: 5rem;
+	color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+	
+}
+
+#search-bar{
+	padding-top: 10px;
+	margin-left: 32rem;
+	color: white;
+	font: white;
+	
+}
+
+#notification{
+	margin-left: 5rem;
+	color: white;
+	font-size: 2.5rem;
+}
+
+
+#account img{
+
+	border-radius: 50%;
+	margin-left: 3rem;
+	margin-top: 15px;
+
+}
+
+
+
+/******************************New Release**********************/
+
+
+#banner{
+	display:inline-block;
+	align-content: center;
+	border-bottom: 5rem;
+	width: auto !important;
+}
+
+
+#banner div{
+	display: flex;
+	flex-direction: row;
+}
+
+
+#banner img{
+	width: 550px;
+}
+
+
+
+	
+
+.zoom:hover{
+	transform: scale(1.1);
+	transition: 0.5s ease-in-out;
+	
+}
+
+
+
+
+/******************************Latest Release**********************/
+
+#latest-release{
+	margin-top: 50px;
+}
+
+#latest-release div{
+	display: inline-block;
+}
+
+#latest-release h5{
+	font-size: 25px;
+	color: white;
+	font-family: sans-serif;
+	display: inline-block;
+	
+}
+
+#latest-release p{
+	margin-left: 20px;
+	font-size: 18px;
+	color: white;
+	font-family: sans-serif;
+}
+
+.details{
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: center;
+	margin-left: 5px;
+}
+
+
+
+#latest-release li{
+	display: flex;
+	display: inline-block !important;
+	list-style-type: none;
+	flex-direction: row;
+	margin: 10px;
+}
+
+
+
+#latest-release img{
+	width: 150px;
+}
+
+
+
+
+/******POPULAR ARTISTS***********/
+
+#popular-artist{
+	margin-top: 50px;
+}
+
+#popular-artist h5{
+	font-size: 25px;
+	color: white;
+	font-family: sans-serif;
+}
+
+.vertical-lists li{
+	margin-top: 50px;
+	display: inline-block;
+
+}
+.vertical-lists p{
+	margin-top: 10px;
+	font-size: 20px; 
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.vertical-lists img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+
+
+/********my playlist********/
+
+#my-playlist h5{
+	font-size: 25px;
+	color: white;
+	font-family: sans-serif;
+}
+
+.playlist{
+	margin-top: 10px;
+	width: 1000px;
+	height: 60px;
+	background-color: #0C1048 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#header-section h1{
+	color: white;
+	display: inline;
+	vertical-align: top;
+	margin-bottom: 50px;
+}
+
+#header-section img{
+	margin-left: -30px;
+	height: 55px;
+	width: 55px;
+}*/
